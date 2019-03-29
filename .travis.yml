@@ -1,6 +1,10 @@
 # configuration for travis ci
 language: node_js
 
+os:
+ - linux
+ - osx
+
 node_js:
   - "8"
   - "lts/*"
